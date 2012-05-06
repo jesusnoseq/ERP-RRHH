@@ -1,0 +1,18 @@
+/* 
+    Document   : estilo.css
+    Created on : 07-jul-2011, 21:32:30
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO all
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+@import "reset-min.css";
+@import "base-min.css";
+@import "fonts-min.css";
+@import "grids-min.css";
+@import "specific-style.css";
+@import "jquery-ui-1.8.14.custom.css";
