@@ -90,16 +90,15 @@ CREATE TABLE IF NOT EXISTS `empleado` (
   `eliminado` bit(1) default '\0',
   PRIMARY KEY  (`idEmpleado`),
   UNIQUE KEY `NIF_UNIQUE` (`NIF`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Almacenara los datos básicos de cada uno de los empleados.' AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Almacenara los datos básicos de cada uno de los empleados.' AUTO_INCREMENT=3 ;
 
 --
 -- Volcar la base de datos para la tabla `empleado`
 --
 
 INSERT INTO `empleado` (`idEmpleado`, `nombre`, `apellidos`, `fechaNac`, `NIF`, `numSegSoc`, `numHijos`, `numTelfFijo`, `numTelfMovil`, `email`, `direccion`, `ciudad`, `codPostal`, `provincia`, `comunidadAutonoma`, `pais`, `eliminado`) VALUES
-(1, 'Jesús', ' Rodríguez Pérez', '1989-09-06', '50615352b', '0550550550', 0, '+34957666666', '+34652404428', 'jesu@gmail.com', 'Plaza Antequera', 'Lucena', '14900', 'Cordoba', 'Andalucia', 'España', '0'),
-(2, 'Root', 'root', '2012-05-05', 'root', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0'),
-(3, 'Francisco', 'Adamuz', '2012-05-01', '1234', '20', 20, '20', '20', 'adamuz@ElMejor.es', 'calle sin casas', 'Adamuz', '14900', 'Cordoba', 'Andalucia', 'España', '0');
+(1, 'Root', 'root', '2012-05-05', 'root', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0'),
+(2, 'Francisco', 'Adamuz', '2012-05-01', '1234', '20', 20, '20', '20', 'adamuz@ElMejor.es', 'calle sin casas', 'Adamuz', '14900', 'Cordoba', 'Andalucia', 'España', '0');
 
 -- --------------------------------------------------------
 
